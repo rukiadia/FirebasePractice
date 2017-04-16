@@ -1,0 +1,32 @@
+{
+  "name": "FirebaseTODO",
+  "version": "0.0.1",
+  "description": "TODO Application made by electron and Firebase",
+  "main": ".tmp/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "babel --watch --out-dir .tmp src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukiadia/FirebaseTODO.git"
+  },
+  "author": "sho yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rukiadia/FirebaseTODO/issues"
+  },
+  "homepage": "https://github.com/rukiadia/FirebaseTODO#readme",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "electron": "1.6.2"
+  },
+  "dependencies": {
+    "firebase": "3.7.5",
+    "moment": "2.18.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  }
+}
